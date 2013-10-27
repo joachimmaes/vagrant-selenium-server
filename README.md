@@ -8,7 +8,7 @@ The produced precise64-selenium-server.box includes Firefox and Chromium that ru
 
 Recipe
 ------
-Because the provisioning step takes some minutes, the idea is the up this box once and then package it as a new box.  It starts with the precise64 base box, resulting in a precise64-selenium-server box.
+Because the provisioning step takes some minutes, the idea is to up this box once and then package it as a new base box.  Thus, it starts with the precise64 base box, resulting in a new precise64-selenium-server base box.
  
 <pre>
 $ vagrant up
